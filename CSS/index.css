@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(134, 92, 189);
+    }
+
+#heading {
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px black;
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+    margin-left: 70px;
+    margin-bottom: 50px;
+}
+
+.content-box {
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px black;
+    margin-left: 70px;
+}
+
+input {
+    padding: 10px;
+    font-size: 20px;
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+    background-color: rgba(47, 79, 79, 0.807);
+    color: whitesmoke;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    font-size: 20px;
+    background-color: transparent;
+    border-radius: 20px;
+    width: 30%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 0px 0px 5px black;
+    border: 3px groove black;
+    cursor: pointer;
+    transition: .3s;
+    margin-left: 20px;
+    box-shadow: 0px 0px 10px black;
+}
+
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+    transform: scale(1.1);
+    transition: .3s;
+    border: 3px solid blueviolet;
+}
+
+.result-box {
+    background-color: rgb(124, 187, 243);
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10%;
+    padding: 20px;
+    text-align: center;
+}
+
+#result {
+    background-color: whitesmoke;
+    position: relative;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 14px;
+    text-shadow: 1px 1px 5px black;
+    font-size: 12rem;
+    text-align: center;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
